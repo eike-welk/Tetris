@@ -27,7 +27,7 @@ class Menu:
 		
 		pygame.draw.rect(screen, background_color, (50,50,self.width-100,self.height-100),0)
 		
-		tetris_font = pygame.font.Font("Tetris.TTF",32)
+		tetris_font = pygame.font.Font("Tetris.ttf",32)
 		tetris_font.set_bold(1)
 		
 		label_1 = tetris_font.render("TETRIS",1, font_color)
@@ -52,7 +52,7 @@ class Menu:
 
 		pygame.draw.rect(screen, background_color, (50,50,self.width-100,self.height-100),0)
 		
-		tetris_font = pygame.font.Font("Tetris.TTF",32)
+		tetris_font = pygame.font.Font("Tetris.ttf",32)
 		tetris_font.set_bold(1)
 		
 		label_1 = tetris_font.render("INFO",1, font_color)
@@ -103,7 +103,7 @@ class Menu:
 	# updates the menu to display the current users selection
 	def update_menu(self,screen):
 		
-		tetris_font = pygame.font.Font("Tetris.TTF",16)
+		tetris_font = pygame.font.Font("Tetris.ttf",16)
 		tetris_font.set_bold(0)
 		
 		singlePlayerBG=(255*(1-self.singlePlayer),255*(1-self.singlePlayer),255*(1-self.singlePlayer))

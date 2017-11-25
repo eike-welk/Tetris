@@ -21,7 +21,7 @@ class Gameover:
 		
 		pygame.draw.rect(screen, background_color, (50, 50, self.width-100, self.height-100), 0)
 		
-		tetris_font = pygame.font.Font("Tetris.TTF",32)
+		tetris_font = pygame.font.Font("Tetris.ttf",32)
 		tetris_font.set_bold(1)
 		
 		label_1 = tetris_font.render("YOU LOST", 1, font_color)
